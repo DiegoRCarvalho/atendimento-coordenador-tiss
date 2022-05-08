@@ -1,0 +1,47 @@
+/***
+*   PT-BR:
+*   EN:
+***/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+h1{
+    margin-top: 5%;
+    margin-bottom: 13%;
+    color: $myColor02;
+    font-size: 3.5em;
+}
+
+h2{
+    margin-top: 30%;
+    margin-bottom: 15%;
+    font-size: 2.5em;
+}
+
+input{
+    margin-bottom: 10%;
+}
+
+.left-sidebar{
+    background-color: $myColor01;
+    position: absolute;
+    width: 70%;
+    height: 100%;
+}
+
+.right-sidebar{
+    background-color: $myColor02;
+    color:$myColor01;
+    position: relative;
+    float: right;
+    width: 30%;
+    height: 100vh;
+}
+
+
